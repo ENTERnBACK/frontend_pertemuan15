@@ -10,10 +10,9 @@ datasource db {
   url      = env("DATABASE_URL")
 }
 
-model Note {
+model Post {
   id        Int      @id @default(autoincrement())
   title     String
   content   String
-  category  String   @default("Umum")
   createdAt DateTime @default(now())
 }

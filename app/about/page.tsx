@@ -1,7 +1,7 @@
 export default function AboutPage() {
   return (
-    <>
-        <h1>Ini Halaman About</h1>
-    </>
+    <main className="container">
+      <h1>Ini adalah halaman About</h1>
+    </main>
   );
 }
